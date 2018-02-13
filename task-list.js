@@ -20,9 +20,9 @@ $(document).ready(function(){
       var clase = categorias[ categoria ];
       var $new_row = $(
         '<li class="list-group-item bg-'+clase.value+' list-group-item-action">' +
-      texto_de_producto +
-      '</li>'
-    );
+        texto_de_producto +
+        '</li>'
+      );
       $lista_principal.append( $new_row );
 
       $new_row.hide().fadeIn();
